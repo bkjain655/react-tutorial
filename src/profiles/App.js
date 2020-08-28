@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="container">
         <h1> Hello World!!</h1>
-        <p> Welcome to learning React Class!!</p>
+        <p> Welcome to React learning Class!!</p>
         <Table profileData={profiles} removeProfile={this.removeProfile}/>
         <Form handleSubmit={this.handleSubmit}/>
       </div>
